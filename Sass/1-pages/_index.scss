@@ -1,0 +1,335 @@
+.Brand {
+    position: absolute;
+    margin-top: 47%;
+    color: teal;
+    font-size: 88px;
+    padding-left: 22px;
+    margin-left: 22px;
+  }
+  
+  #hero{
+  
+  text-align: center;
+  
+  }
+  
+  
+  .bi-truck {
+    color: orange;
+    font-size: 90px;
+    font-weight: bold;
+  }
+  
+  #copyright{
+  
+  background-color: #6C7D8C;
+  
+  }
+  #copyright-text{
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-family: 'poppins', sans-serif;
+  }
+  
+  #footer {
+    background-color: #404E59;
+  }
+  
+  #footicons {
+    font-size: 45px;
+    color: teal;
+    padding: 13px;
+  }
+  
+  #footcontactinfo {
+    padding: 12px;
+  }
+  
+  #footcontactinfo  {
+    padding: 12px;
+  }
+  
+  
+  .col-md-4 {
+    padding-top: 144px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    height: 500px;
+  }
+  
+  #lgo {
+    font-size: 20px;
+  }
+  
+  .boxheaders {
+    text-align: center;
+  }
+  
+  .col-md-4 p {
+    text-align: center;
+  }
+  
+  .bi-sign-stop {
+    font-size: 62px;
+  }
+  
+  
+  
+  
+  /* Color Theme Swatches in Hex */
+  .color-theme_truckhero-1-hex {
+    color: #08090D;
+  }
+  
+  .color-theme_truckhero-2-hex {
+    color: #F2F2F2;
+  }
+  
+  .color-theme_truckhero-3-hex {
+    color: #404E59;
+  }
+  
+  .color-theme_truckhero-4-hex {
+    color: #6C7D8C;
+  }
+  
+  .color-theme_truckhero-5-hex {
+    color: #CCD3D9;
+  }
+  
+  /* Color Theme Swatches in RGBA */
+  .color-theme_truckhero-1-rgba {
+    color: rgba(8, 9, 13, 1);
+  }
+  
+  .color-theme_truckhero-2-rgba {
+    color: rgba(242, 242, 242, 1);
+  }
+  
+  .color-theme_truckhero-3-rgba {
+    color: rgba(64, 78, 89, 1);
+  }
+  
+  .color-theme_truckhero-4-rgba {
+    color: rgba(108, 125, 140, 1);
+  }
+  
+  .color-theme_truckhero-5-rgba {
+    color: rgba(204, 211, 217, 1);
+  }
+  
+  /* Color Theme Swatches in HSLA */
+  .color-theme_truckhero-1-hsla {
+    color: hsla(228, 23, 4, 1);
+  }
+  
+  .color-theme_truckhero-2-hsla {
+    color: hsla(0, 0, 94, 1);
+  }
+  
+  .color-theme_truckhero-3-hsla {
+    color: hsla(206, 16, 30, 1);
+  }
+  
+  .color-theme_truckhero-4-hsla {
+    color: hsla(208, 12, 48, 1);
+  }
+  
+  .color-theme_truckhero-5-hsla {
+    color: hsla(207, 14, 82, 1);
+  }
+  
+  
+  
+  
+  .footericons li{
+  
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  
+  }
+  
+  
+  
+  .footericons {
+  text-align: center;
+  
+  }
+  
+  .bi-phonediv {
+    padding-top: 24px;
+    padding-left: 6px;
+  }
+  
+  
+  .bi-clockdiv {
+    padding-top: 24px;
+    padding-left: 24px;
+  }
+  
+  hr {
+  
+  
+    color: white;
+  }
+  
+  .truckhero2 img{
+  
+  text-align: center;
+  padding-left: 20px;
+  width:80%;
+  
+  }
+  
+  #tag{
+  padding-top:35px;
+  text-align: center;
+  
+  }
+  .tag {
+  
+  padding-top: 36px;
+  
+  }
+  
+  
+  .grand {
+    position: absolute;
+    margin-top: 23%;
+    color: white;
+    padding-left: 42px;
+    text-align: center;
+  
+  }
+  
+  
+  .grandb {
+  position: absolute;
+  color: white;
+  padding-left: 440px;
+  margin-top: 23%;
+  
+  
+  }
+  
+  .grandc {
+  position: absolute;
+  color: white;
+  padding-left: 1278px;
+  margin-top: 23%;
+  
+  
+  }
+  
+  .headers2 h3{
+  
+  
+  }
+  
+  /** This is the css styling for the nav bar navigation **/
+  
+  .navbar {
+    background-color: #404e59;
+  }
+  
+  .navbar .navbar-brand {
+    color: #ccd3d9;
+  }
+  
+  .navbar .navbar-brand:hover,
+  .navbar .navbar-brand:focus {
+    color: #ff9608;
+  }
+  
+  .navbar .navbar-text {
+    color: #ccd3d9;
+  }
+  
+  .navbar .navbar-text a {
+    color: #ff9608;
+  }
+  
+  .navbar .navbar-text a:hover,
+  .navbar .navbar-text a:focus {
+    color: #ff9608;
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    color: #ccd3d9;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+  }
+  
+  .navbar .navbar-nav .nav-link:not(.disabled):hover,
+  .navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #ff9608;
+  }
+  
+  .navbar .navbar-nav .dropdown-menu {
+    background-color: #404e59;
+    border-color: #6c7d8c;
+  }
+  
+  .navbar .navbar-nav .dropdown-menu .dropdown-item {
+    color: #ccd3d9;
+  }
+  
+  .navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+  .navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+  .navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+    color: #ff9608;
+    background-color: #6c7d8c;
+  }
+  
+  .navbar .navbar-nav .dropdown-menu .dropdown-divider {
+    border-top-color: #6c7d8c;
+  }
+  
+  .navbar .navbar-nav .nav-item.active .nav-link,
+  .navbar .navbar-nav .nav-item.active .nav-link:hover,
+  .navbar .navbar-nav .nav-item.active .nav-link:focus,
+  .navbar .navbar-nav .nav-item.show .nav-link,
+  .navbar .navbar-nav .nav-item.show .nav-link:hover,
+  .navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #ff9608;
+    background-color: #6c7d8c;
+  }
+  
+  .navbar .navbar-toggler {
+    border-color: #6c7d8c;
+  }
+  
+  .navbar .navbar-toggler:hover,
+  .navbar .navbar-toggler:focus {
+    background-color: #6c7d8c;
+  }
+  
+  .navbar .navbar-toggler .navbar-toggler-icon {
+    color: #ccd3d9;
+  }
+  
+  .navbar .navbar-collapse,
+  .navbar .navbar-form {
+    border-color: #ccd3d9;
+  }
+  
+  .navbar .navbar-link {
+    color: #ccd3d9;
+  }
+  
+  .navbar .navbar-link:hover {
+    color: #ff9608;
+  }
+  
+ 
+
+
+  #box-3{
+
+margin-top: 420px;
+padding: 22px;
+
+  }

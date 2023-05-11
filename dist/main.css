@@ -1,0 +1,400 @@
+.Brand {
+  position: absolute;
+  margin-top: 47%;
+  color: teal;
+  font-size: 88px;
+  padding-left: 22px;
+  margin-left: 22px;
+}
+
+#hero {
+  text-align: center;
+}
+
+.bi-truck {
+  color: orange;
+  font-size: 90px;
+  font-weight: bold;
+}
+
+#copyright {
+  background-color: #6C7D8C;
+}
+
+#copyright-text {
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-family: "poppins", sans-serif;
+}
+
+#footer {
+  background-color: #404E59;
+}
+
+#footicons {
+  font-size: 45px;
+  color: teal;
+  padding: 13px;
+}
+
+#footcontactinfo {
+  padding: 12px;
+}
+
+#footcontactinfo {
+  padding: 12px;
+}
+
+.col-md-4 {
+  padding-top: 144px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+  height: 500px;
+}
+
+#lgo {
+  font-size: 20px;
+}
+
+.boxheaders {
+  text-align: center;
+}
+
+.col-md-4 p {
+  text-align: center;
+}
+
+.bi-sign-stop {
+  font-size: 62px;
+}
+
+/* Color Theme Swatches in Hex */
+.color-theme_truckhero-1-hex {
+  color: #08090D;
+}
+
+.color-theme_truckhero-2-hex {
+  color: #F2F2F2;
+}
+
+.color-theme_truckhero-3-hex {
+  color: #404E59;
+}
+
+.color-theme_truckhero-4-hex {
+  color: #6C7D8C;
+}
+
+.color-theme_truckhero-5-hex {
+  color: #CCD3D9;
+}
+
+/* Color Theme Swatches in RGBA */
+.color-theme_truckhero-1-rgba {
+  color: rgb(8, 9, 13);
+}
+
+.color-theme_truckhero-2-rgba {
+  color: rgb(242, 242, 242);
+}
+
+.color-theme_truckhero-3-rgba {
+  color: rgb(64, 78, 89);
+}
+
+.color-theme_truckhero-4-rgba {
+  color: rgb(108, 125, 140);
+}
+
+.color-theme_truckhero-5-rgba {
+  color: rgb(204, 211, 217);
+}
+
+/* Color Theme Swatches in HSLA */
+.color-theme_truckhero-1-hsla {
+  color: hsl(228deg, 23%, 4%);
+}
+
+.color-theme_truckhero-2-hsla {
+  color: hsl(0deg, 0%, 94%);
+}
+
+.color-theme_truckhero-3-hsla {
+  color: hsl(206deg, 16%, 30%);
+}
+
+.color-theme_truckhero-4-hsla {
+  color: hsl(208deg, 12%, 48%);
+}
+
+.color-theme_truckhero-5-hsla {
+  color: hsl(207deg, 14%, 82%);
+}
+
+.footericons li {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.footericons {
+  text-align: center;
+}
+
+.bi-phonediv {
+  padding-top: 24px;
+  padding-left: 6px;
+}
+
+.bi-clockdiv {
+  padding-top: 24px;
+  padding-left: 24px;
+}
+
+hr {
+  color: white;
+}
+
+.truckhero2 img {
+  text-align: center;
+  padding-left: 20px;
+  width: 80%;
+}
+
+#tag {
+  padding-top: 35px;
+  text-align: center;
+}
+
+.tag {
+  padding-top: 36px;
+}
+
+.grand {
+  position: absolute;
+  margin-top: 23%;
+  color: white;
+  padding-left: 42px;
+  text-align: center;
+}
+
+.grandb {
+  position: absolute;
+  color: white;
+  padding-left: 440px;
+  margin-top: 23%;
+}
+
+.grandc {
+  position: absolute;
+  color: white;
+  padding-left: 1278px;
+  margin-top: 23%;
+}
+
+/** This is the css styling for the nav bar navigation **/
+.navbar {
+  background-color: #404e59;
+}
+
+.navbar .navbar-brand {
+  color: #ccd3d9;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #ff9608;
+}
+
+.navbar .navbar-text {
+  color: #ccd3d9;
+}
+
+.navbar .navbar-text a {
+  color: #ff9608;
+}
+
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+  color: #ff9608;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #ccd3d9;
+  border-radius: 0.25rem;
+  margin: 0 0.25em;
+}
+
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #ff9608;
+}
+
+.navbar .navbar-nav .dropdown-menu {
+  background-color: #404e59;
+  border-color: #6c7d8c;
+}
+
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
+  color: #ccd3d9;
+}
+
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+  color: #ff9608;
+  background-color: #6c7d8c;
+}
+
+.navbar .navbar-nav .dropdown-menu .dropdown-divider {
+  border-top-color: #6c7d8c;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #ff9608;
+  background-color: #6c7d8c;
+}
+
+.navbar .navbar-toggler {
+  border-color: #6c7d8c;
+}
+
+.navbar .navbar-toggler:hover,
+.navbar .navbar-toggler:focus {
+  background-color: #6c7d8c;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+  color: #ccd3d9;
+}
+
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #ccd3d9;
+}
+
+.navbar .navbar-link {
+  color: #ccd3d9;
+}
+
+.navbar .navbar-link:hover {
+  color: #ff9608;
+}
+
+#box-3 {
+  margin-top: 420px;
+  padding: 22px;
+}
+
+/*Media queries pass through here   */
+@media (max-width: 575px) {
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ccd3d9;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ff9608;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ff9608;
+    background-color: #6c7d8c;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ccd3d9;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ff9608;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ff9608;
+    background-color: #6c7d8c;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ccd3d9;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ff9608;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ff9608;
+    background-color: #6c7d8c;
+  }
+}
+@media (max-width: 1199px) {
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ccd3d9;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ff9608;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ff9608;
+    background-color: #6c7d8c;
+  }
+}
+/*ENd of Media queries pass through here   */
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #ccd3d9;
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+  color: #ff9608;
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #ff9608;
+  background-color: #6c7d8c;
+}
+
+#inventory-button {
+  display: block;
+  margin: auto;
+  padding: 18px;
+  font-size: 25px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  align-content: center;
+}
+
+#box-4 {
+  background-color: rgba(153, 196, 187, 0.306);
+  height: auto;
+  padding: 20px;
+  margin-top: 55px;
+}
+
+#box-4b {
+  background-color: rgba(82, 109, 96, 0.235);
+  height: auto;
+  padding: 29px;
+  margin-top: 55px;
+}
+
+#box-4c {
+  background-color: rgba(108, 126, 108, 0.235);
+  height: auto;
+  padding: 20px;
+  margin-top: 55px;
+}
+
+#about-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 650px;
+}/*# sourceMappingURL=main.css.map */
