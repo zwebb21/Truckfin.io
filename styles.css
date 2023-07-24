@@ -1,3 +1,23 @@
+
+
+body  
+
+{
+background-color: #3d3f4130;
+}
+
+
+.container-fluid{
+width: 1400px;
+
+
+
+
+
+}
+
+/* Postiong properties  */
+
 .Brand {
   position: absolute;
   margin-top: 47%;
@@ -7,11 +27,78 @@
   margin-left: 22px;
 }
 
+
+#inventory-cards {
+
+text-align: center;
+font-size: small;
+border-bottom-right-radius: 10%;
+
+
+}
+
+
+.col-4 {
+  padding-top: 144px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+  height: 500px;
+}
+
+
+
+
+
+.col-md-4 {
+  padding-top: 144px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+  height: 500px;
+}
+
+#lgo {
+  font-size: 20px;
+}
+
+.boxheaders {
+  text-align: center;
+}
+
+.col-md-4 p {
+  text-align: center;
+}
+
+.bi-sign-stop {
+  font-size: 62px;
+}
+
+
+
 #hero{
 
 text-align: center;
 
 }
+
+.buttons-center {
+
+text-align: center;
+margin-bottom: 120px;
+margin-top: 134px;
+}
+/* Postiong properties  */
+#Test {
+text-align: center;
+height: 680px;
+}
+
+.test-p {
+
+  margin-top: 540px;
+  color:#08090D;
+  text-align: center;
+}
+
 
 
 .bi-truck {
@@ -48,30 +135,6 @@ font-family: 'poppins', sans-serif;
 
 #footcontactinfo  {
   padding: 12px;
-}
-
-
-.col-md-4 {
-  padding-top: 144px;
-  padding-left: 60px;
-  padding-bottom: 60px;
-  height: 500px;
-}
-
-#lgo {
-  font-size: 20px;
-}
-
-.boxheaders {
-  text-align: center;
-}
-
-.col-md-4 p {
-  text-align: center;
-}
-
-.bi-sign-stop {
-  font-size: 62px;
 }
 
 
@@ -184,14 +247,22 @@ width:80%;
 
 }
 
-#tag{
-padding-top:35px;
+#inventory-tag{
+
+/* This is the Huge inventory = Header  */
+margin-top: 5.4em;
+padding-top:105px;
 text-align: center;
 
 }
 .tag {
 
 padding-top: 36px;
+
+}
+.EV {
+
+color: #ff9608;
 
 }
 
@@ -224,10 +295,7 @@ margin-top: 23%;
 
 }
 
-.headers2 h3{
 
-
-}
 
 /** This is the css styling for the nav bar navigation **/
 
@@ -324,6 +392,13 @@ margin-top: 23%;
   color: #ff9608;
 }
 
+/** End of nav bar navigation **/
+
+
+
+/* Display properties here */
+/* Media queries */
+
 @media (max-width: 575px) {
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
     color: #ccd3d9;
@@ -338,6 +413,10 @@ margin-top: 23%;
     color: #ff9608;
     background-color: #6c7d8c;
   }
+
+
+
+
 }
 
 @media (max-width: 767px) {
@@ -354,7 +433,16 @@ margin-top: 23%;
     color: #ff9608;
     background-color: #6c7d8c;
   }
+
 }
+#inventory-tag{
+
+  /* This is the Huge inventory = Header  */
+  margin-top: 2.4em;
+  padding-top:105px;
+  text-align: center;
+  
+  }
 
 @media (max-width: 991px) {
   .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
@@ -370,7 +458,78 @@ margin-top: 23%;
     color: #ff9608;
     background-color: #6c7d8c;
   }
+  #inventory-tag{
+
+    /* This is the Huge inventory = Header  */
+    margin-top: 2.4em;
+    padding-top:105px;
+    text-align: center;
+    
+    }
 }
+
+
+
+
+@media (max-width: 1000px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ccd3d9;
+  }
+
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ff9608;
+  }
+
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ff9608;
+    background-color: #6c7d8c;
+  }
+  #inventory-tag{
+
+    /* This is the Huge inventory = Header  */
+    margin-top: 10.4em;
+    padding-top:105px;
+    text-align: center;
+    
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 1454px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ccd3d9;
+  }
+
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ff9608;
+  }
+
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ff9608;
+    background-color: #6c7d8c;
+  }
+  #inventory-tag{
+
+    /* This is the Huge inventory = Header  */
+    margin-top: 3.4em;
+    padding-top:105px;
+    text-align: center;
+    
+    }
+}
+
+
+
+
+
+
 
 @media (max-width: 1199px) {
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
@@ -385,8 +544,21 @@ margin-top: 23%;
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #ff9608;
     background-color: #6c7d8c;
-  }
+  
+  
 }
+
+#inventory-tag{
+
+  /* This is the Huge inventory = Header  */
+  margin-top: 5.4em;
+  padding-top:105px;
+  text-align: center;
+  
+  }
+
+
+/* End of Display properties  */
 
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
   color: #ccd3d9;
@@ -400,4 +572,138 @@ margin-top: 23%;
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
   color: #ff9608;
   background-color: #6c7d8c;
+}
+
+
+
+
+
+}
+
+
+.sectiona{
+height: auto;
+
+
+}
+
+
+.card-columns {
+
+margin-top: 5.6rem;
+padding: 50px;
+}
+
+.card-columns{
+
+
+padding: 50px;
+
+}
+
+
+
+#seafood-card {
+
+height: fit-content;
+width: 200px;
+
+
+
+}
+
+
+#XLR {
+
+color: #ff9608;
+font-size: xx-large;
+font-weight: 700;
+
+}
+
+
+nav {
+
+text-align: center;
+
+}
+
+#Bio-Cards{
+background-color: #272c2f;
+padding: 5.2rem;
+
+}
+
+
+#fish-parks{
+
+
+background-image: url(images/fish2.jpg);
+background-position: center;
+background-repeat:no-repeat;
+background-size: contain;
+
+}
+
+
+#Investor-content img{
+
+
+border-radius:1.2%;
+
+}
+
+#Investor-heading{
+
+background-color:#404e59;
+color: #ff9608;
+padding: 2.1rem;
+border-radius: 1.1rem;
+margin-top: 2.5rem;
+}
+
+.fish-farm {
+
+width: fit-content;
+height: 400px;
+
+}
+
+.fish-farm2{
+
+background-size: contain;
+width: fit-content;
+height: auto;
+
+}
+
+#fishinfo{
+padding: 5.4rem;
+margin: 0;
+height: 1260px;
+
+}
+
+#fishinfodiv h3{
+
+letter-spacing: 0.24rem;
+  color:#e58200;
+}
+
+
+
+
+#shareholder-info {
+
+padding: 3.3rem;
+text-align: center;
+
+}
+
+#shareholder-info img {
+
+padding: 1.4rem;
+justify-content: space-between;
+margin: 0;
+border-radius: 7%;
 }

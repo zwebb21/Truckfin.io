@@ -1,0 +1,184 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Styles for extra small devices */
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 601px) and (max-width: 959px) {
+
+
+    h3 {
+       
+        font-size: 25px;
+        
+        
+            }
+
+
+            ul img {
+
+
+              width: 45px;
+              
+              }
+              
+
+              .truck-3 {
+
+                width: 112px;
+                display: block;
+                flex: auto;
+                justify-content: center;
+                }
+                
+          
+.truck-4 {
+
+
+width: 122px;
+
+}
+
+
+    /* Styles for small devices */
+  }
+  
+  /* Medium devices (landscape tablets, 960px and up) */
+  @media only screen and (min-width: 610px) and (max-width: 1279px) {
+    /* Styles for medium devices */
+
+
+    h3 {
+  
+        font-size: 35px;
+     
+            }
+
+
+
+
+            ul img {
+
+
+              width: 75px;
+              
+              }
+              
+
+
+
+              #about-row {
+                display: flex;
+                flex-direction: ;
+                justify-content: center;
+                height: 650px;
+              }
+
+
+
+
+.truck-4 {
+  text-align: center;
+  width: 542px;
+  height: 900px;
+  border-radius: 5.9%;
+  margin-top: 12.3%;
+  }
+
+
+
+
+  .truck-3 {
+
+    width: 222px;
+    display: block;
+    flex: auto;
+    justify-content: center;
+    }
+    
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+  
+  /* Large devices (laptops/desktops, 1280px and up) */
+  @media only screen and (min-width: 1280px) {
+
+.boxheaders {
+font-size: 44px;
+padding: 22px;
+
+
+    }
+
+
+ul img {
+
+
+width: 85px;
+
+}
+
+
+
+    .brands {
+
+width: 10px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+    .truck-3 {
+
+      width: 222px;
+      display: block;
+      flex: auto;
+      justify-content: center;
+      }
+      
+
+
+
+      .truck-4 {
+        text-align: center;
+        width: 1442px;
+        height: 900px;
+        border-radius: 5.9%;
+        margin-top: 12.3%;
+        }
+        
+  
+
+
+
+
+    /* Styles for large devices */
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1440px and up) */
+  @media only screen and (min-width: 1440px) {
+    /* Styles for extra large devices */
+  }
+  
