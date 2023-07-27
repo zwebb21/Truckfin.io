@@ -707,3 +707,20 @@ justify-content: space-between;
 margin: 0;
 border-radius: 7%;
 }
+
+
+#Fleet-text {
+
+background-color: #5151519d;
+border-radius: 6px;
+margin-bottom: 12px;
+}
+
+#Pricing-card-deck {
+width: auto;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+padding: 50px;
+}
+
