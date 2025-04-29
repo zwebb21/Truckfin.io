@@ -14,10 +14,33 @@ text-align: center;
 }
 
 
+#truck-banner-img{
+  /* use a percent for width so that its more responsive. */
+  width: 85.5%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/*  */
+
 .bi-truck {
+
+  /* this is the truck icon next to the brand name.  */
+  position: relative;
   color: orange;
   font-size: 90px;
   font-weight: bold;
+  padding: 20px;
+}
+
+
+#Home-Text-Row{
+  border-radius: 20px;
+  height: auto;
+padding: 80px;
+width: 90%;
+margin: auto;
+
 }
 
 #copyright{
